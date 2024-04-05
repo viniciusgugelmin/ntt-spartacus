@@ -1,0 +1,67 @@
+export const address = {
+  addressForm: {
+    title: 'Título',
+    defaultTitle: 'Título padrão',
+    firstName: {
+      label: 'Nome',
+      placeholder: 'Nome',
+    },
+    lastName: {
+      label: 'Sobrenome',
+      placeholder: 'Sobrenome',
+    },
+    address1: 'Endereço 1',
+    address2: 'Endereço 2 (opcional)',
+    country: 'País/Região',
+    city: {
+      label: 'Cidade',
+      placeholder: 'Cidade',
+    },
+    state: 'Estado',
+    zipCode: {
+      label: 'Código postal',
+      placeholder: 'Código Postal/CEP',
+    },
+    phoneNumber: {
+      label: 'Número de telefone (opcional)',
+      placeholder: '(555) 555 - 0123',
+    },
+    saveAsDefault: 'Salvar como padrão',
+    chooseAddress: 'Escolher endereço',
+    streetAddress: 'Endereço completo',
+    aptSuite: 'Apt, Suite',
+    selectOne: 'Selecionar...',
+    setAsDefault: 'Definir como padrão',
+    titleRequired: 'Título é obrigatório.',
+    userAddressAddSuccess: 'Novo endereço foi adicionado com sucesso!',
+    userAddressUpdateSuccess: 'Endereço atualizado com sucesso!',
+    userAddressDeleteSuccess: 'Endereço excluído com sucesso!',
+    invalidAddress: 'Endereço inválido',
+  },
+  addressBook: {
+    addNewShippingAddress: 'Adicionar um novo endereço de envio',
+    editShippingAddress: 'Editar endereço de envio',
+    areYouSureToDeleteAddress: 'Tem certeza de que deseja excluir este endereço?',
+    addNewAddress: 'Adicionar novo endereço',
+    addAddress: 'Adicionar endereço',
+    updateAddress: 'Atualizar endereço',
+    backToAddressList: 'Voltar para lista de endereços',
+  },
+  addressCard: {
+    default: 'PADRÃO',
+    selected: 'Selecionado',
+    setAsDefault: 'Definir como padrão',
+    shipTo: 'Enviar para',
+    billTo: 'Cobrar de',
+  },
+  addressSuggestion: {
+    verifyYourAddress: 'Verifique seu endereço',
+    ensureAccuracySuggestChange:
+      'Para garantir a precisão da entrega, sugerimos a alteração selecionada abaixo.',
+    chooseAddressToUse: 'Por favor, escolha qual endereço você gostaria de usar:',
+    suggestedAddress: 'Endereço sugerido',
+    enteredAddress: 'Endereço informado',
+    editAddress: 'Editar endereço',
+    saveAddress: 'Salvar endereço',
+  },
+};
