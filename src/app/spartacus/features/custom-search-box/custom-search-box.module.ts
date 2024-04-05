@@ -1,14 +1,9 @@
-import { CommonModule } from '@angular/common';
-import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import {
-  CmsConfig,
-  I18nModule,
-  provideDefaultConfig,
-  UrlModule,
-} from '@spartacus/core';
-import { HighlightPipe } from './highlight.pipe';
-import { CustomSearchBoxComponent} from './custom-search-box.component';
+import {CommonModule} from '@angular/common';
+import {NgModule} from '@angular/core';
+import {RouterModule} from '@angular/router';
+import {CmsConfig, I18nModule, provideDefaultConfig, UrlModule,} from '@spartacus/core';
+import {CustomHighlightPipe} from './custom-highlight.pipe';
+import {CustomSearchBoxComponent} from './custom-search-box.component';
 import {IconModule, MediaModule} from "@spartacus/storefront";
 
 @NgModule({
@@ -29,7 +24,8 @@ import {IconModule, MediaModule} from "@spartacus/storefront";
       },
     }),
   ],
-  declarations: [CustomSearchBoxComponent, HighlightPipe],
-  exports: [CustomSearchBoxComponent, HighlightPipe],
+  declarations: [CustomSearchBoxComponent, CustomHighlightPipe],
+  exports: [CustomSearchBoxComponent,],
 })
-export class CustomSearchBoxModule {}
+export class CustomSearchBoxModule {
+}
